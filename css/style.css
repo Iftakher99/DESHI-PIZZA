@@ -1,0 +1,57 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+#main-home .header-top .item a {
+color: #000000;
+}
+#main-home .header-top .item a:hover {
+color: #CF1E30;
+}
+#main-home .navbar .nav-link{
+    padding: 0 15px;
+    color: #000000;
+}
+#main-home .navbar .nav-link:hover{
+    padding: 0 15px;
+    color: #CF1E30;
+}
+#main-home .navbar .cart {
+background-color:#CF1E30 ;
+color: #ffffff;
+padding: 5px 10px;
+border-radius: 5px;
+
+}
+
+/* Carasoul Satrt */
+.slider{
+    background-color:#CF1E30 ;
+    color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 2px lightgrey;
+}
+.slider img {
+    border-radius: 15px 0 0 15px;
+}
+.slider .btn {
+    color:#ffffff ;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px 20px 8px 16px;
+    background-color:#d60a1e ;
+    
+}
+
+.slider .btn:hover{
+    background-color:#ffffff ;
+    color: #d60a1e;
+    box-shadow: 2px 2px 4px 2px #3b3636;
+}
+/* Carasoul End */
+
+
+/* Responsive */
+@media only screen and (max-width:580px)
+{#main-home .header-top
+{
+    flex-direction: column;
+}}
