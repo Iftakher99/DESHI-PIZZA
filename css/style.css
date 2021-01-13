@@ -39,6 +39,10 @@
 .slider img {
   border-radius: 15px 0 0 15px;
 }
+.slider h3 {
+  font-size: 32px;
+  color: #56f99a;
+}
 .slider .btn {
   color: #ffffff;
   border: 1px solid #ffffff;
@@ -54,6 +58,20 @@
   box-shadow: 2px 2px 4px 2px #3b3636;
 }
 /* Carasoul End */
+
+/* Gallery */
+#gallery {
+  background-color: whitesmoke;
+}
+#gallery .gallery-img-holder {
+  overflow: hidden;
+  border-radius: 10px;
+}
+#gallery img:hover {
+  transform: scale(1.2);
+  overflow: hidden;
+  transition: transform 1s;
+}
 
 /* Responsive */
 @media only screen and (max-width: 580px) {
