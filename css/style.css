@@ -1,68 +1,70 @@
-*{
-    font-family: 'Poppins', sans-serif;
+* {
+  font-family: "Poppins", sans-serif;
 }
 
 #main-home .header-top .item a {
-color: #000000;
+  color: #000000;
 }
 #main-home .header-top .item a:hover {
-color: #CF1E30;
+  color: #cf1e30;
 }
-#main-home .navbar .nav-link{
-    padding: 0 15px;
-    color: #000000;
+#main-home .navbar .nav-link {
+  padding: 0 15px;
+  color: #000000;
 }
-#main-home .navbar .nav-link:hover{
-    padding: 0 15px;
-    color: #CF1E30;
+#main-home .navbar .nav-link:hover {
+  padding: 0 15px;
+  color: #cf1e30;
 }
 #main-home .navbar .cart {
-background-color:#CF1E30 ;
-color: #ffffff;
-padding: 5px 10px;
-border-radius: 5px;
-
+  background-color: #cf1e30;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 /* Carasoul Sart */
-.slider{
-    background-color:#CF1E30 ;
-    color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 2px 2px 4px 2px lightgrey;
+
+.slider {
+  background: rgb(5, 186, 88);
+  background: linear-gradient(
+    211deg,
+    rgba(5, 186, 88, 0.9430199430199431) 30%,
+    rgba(253, 29, 29, 1) 77%
+  );
+  color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 2px lightgrey;
 }
 .slider img {
-    border-radius: 15px 0 0 15px;
+  border-radius: 15px 0 0 15px;
 }
 .slider .btn {
-    color:#ffffff;
-    border: 1px solid #ffffff;
-    padding: 8px 20px 8px 16px;
-    background-color:#00ab4e ;
-    font-size: 1.2rem;
-    font-weight: 500;
-    
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 8px 20px 8px 16px;
+  background-color: #00ab4e;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
-.slider .btn:hover{
-    background-color:#007837 ;
-    color:#ffffff;
-    box-shadow: 2px 2px 4px 2px #3b3636;
+.slider .btn:hover {
+  background-color: #007837;
+  color: #ffffff;
+  box-shadow: 2px 2px 4px 2px #3b3636;
 }
 /* Carasoul End */
 
-
 /* Responsive */
-@media only screen and (max-width:580px)
-{#main-home .header-top
-{ 
+@media only screen and (max-width: 580px) {
+  #main-home .header-top {
     flex-direction: column;
-}
+  }
 }
 /* Responsive */
-@media only screen and (max-width:780px)
-{#main-home .slider button
-{ 
-  display: flex;
-margin: auto;}
+@media only screen and (max-width: 780px) {
+  #main-home .slider button {
+    display: flex;
+    margin: auto;
+  }
 }
